@@ -1,6 +1,6 @@
 ## -*- coding: utf-8 -*- ####################################################
 import tempfile
-import Image
+from PIL import Image
 from StringIO import StringIO
 
 from django.core.files import File
