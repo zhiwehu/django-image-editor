@@ -11,7 +11,7 @@ setup(name='django-image-editor',
     packages=['image_editor', ],
     include_package_data = True,    # include everything in source control
     zip_safe=False,
-    install_requires=['PIL', ],
+    install_requires=['PILLOW', ],
     classifiers = [
         "Programming Language :: Python",
         "Programming Language :: Python :: 2",
